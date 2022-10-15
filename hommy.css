@@ -1,0 +1,38 @@
+
+body{
+    background: url('./images/city1.jpg');
+    font-family: cursive;
+    margin: 20px;
+    align-items: flex;
+    
+    
+}
+.bt{
+    border: 2px solid #000;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    background:#000;
+    transition: color 0.4 linear;
+
+}
+
+.bt:hover{
+    background:rgb(0, 255, 242);
+    
+}
+.hope{
+    margin-right: 60%;
+    
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    list-style: none;
+}
+
+
+
+
+    
+

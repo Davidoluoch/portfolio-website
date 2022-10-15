@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top:0;
+    background: url('./images/jojo.jpg');
+    
+
+
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #c0392b;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 4px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color: #fff;
+    padding: 36px 10px;
+    margin: 0 1px;
+    font-weight: 500;
+}
+nav a:hover{
+    
+    color: red;
+}
+.banner_area{
+    background-image: url(dv.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner_area::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+.banner-area h2{
+padding-top: 8%;
+font-size: 80px;
+color: #fff;
+}
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #fff;
+    top: 600px;
+
+
+}
+ 
+
+.mose{
+    background-color:#130f40;
+    width: 640px;
+    color: beige;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+} 
+.photo{
+    background: url('.images/jojo.jpg');
+
+}
+.para{
+    color: #fff;
+    font-family: cursive;
+}
+.btn{
+    
+    background: #000;
+}
